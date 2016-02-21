@@ -48,11 +48,11 @@ let g:vimfiler_as_default_explorer = 1
 " show line ends and and tabs
 set list
 set listchars=eol:¬,tab:▸\
-"Wrap text after 79 characters
+" Wrap text after 79 characters
 set textwidth=79
-"Set tabs to 4 spaces
+" Set tabs to 4 spaces
 set tabstop=4
 set shiftwidth=4
 set expandtab
-" Highlite 80 column
+" Highlight 80 column
 set colorcolumn=80
