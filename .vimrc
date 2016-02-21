@@ -19,6 +19,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Shougo/vimfiler.vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'cespare/vim-toml'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,18 +43,18 @@ set background=dark
 colorscheme solarized
 " airline config
 set laststatus=2
-set guifont=Liberation\ Mono\ for\ Powerline\ 10
+set guifont=Liberation\ Mono\ for\ Powerline\ 11
 let g:airline_powerline_fonts = 1
 " override netrw by vimfiler
 let g:vimfiler_as_default_explorer = 1
 " show line ends and and tabs
 set list
 set listchars=eol:¬,tab:▸\
-" Wrap text after 79 characters
-set textwidth=79
+" Wrap text after 119 characters
+set textwidth=119
 " Set tabs to 4 spaces
 set tabstop=4
 set shiftwidth=4
 set expandtab
-" Highlight 80 column
-set colorcolumn=80
+" Highlight 140 column
+set colorcolumn=140
